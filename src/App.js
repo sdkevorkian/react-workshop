@@ -15,8 +15,8 @@ class App extends Component {
           <h2>React Profile Workshop</h2>
         </div>
 
-        <div className="App-intro">
-          Hello, <Name />
+        <div className="App-intro" className="inline">
+          Hello, <Name name= "Christina"/>
         </div>
 
       </div>
