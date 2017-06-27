@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-//import BasicComponent from './components/BasicComponent'
+import BasicComponent from './components/BasicComponent';
+import SaraComponent from './components/SaraComponent';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
+    render() {
+        return (
+            <div className="App">
 
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -15,12 +16,13 @@ class App extends Component {
         </div>
 
         <div className="App-intro">
-          This is the starting point to build your app on top of!
+          <BasicComponent />
+          <SaraComponent />
         </div>
 
       </div>
-    );
-  }
+        );
+    }
 }
 
 export default App;
