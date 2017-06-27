@@ -1,11 +1,11 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class Name extends Component {
-  render(){
-    return(<div className= "inline">
+    render() {
+        return (<div className="inline">
         {this.props.name}
       </div>)
-  }
+    }
 }
 
 export default Name;
